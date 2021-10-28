@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  background-color: white;
+  height: 350px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2)
+}
+
+.card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-closing-tag {
+  font-size: small;
+  text-align: center;
+}
